@@ -12,7 +12,7 @@
     "require": {
         "ext-json": "*",
         "ext-redis": "*",
-        "symfony/messenger": "^4.4"
+        "symfony/messenger": "^6.0"
     },
     "autoload": {
         "psr-4": {
@@ -25,12 +25,12 @@
         }
     },
     "require-dev": {
-        "nyholm/symfony-bundle-test": "^1.6",
-        "phpunit/phpunit": "^7.3",
-        "symfony/dependency-injection": "^4.1",
-        "symfony/http-kernel": "^4.1",
-        "symfony/property-access": "^4.1",
-        "symfony/serializer": "^4.1"
+        "nyholm/symfony-bundle-test": "^2.0",
+        "phpunit/phpunit": "^9.5",
+        "symfony/dependency-injection": "^6.0",
+        "symfony/http-kernel": "^6.0",
+        "symfony/property-access": "^6.0",
+        "symfony/serializer": "^6.0"
     },
     "scripts": {
         "test": "phpunit --testdox --colors=always"
